@@ -16,3 +16,7 @@ console.log(nameList[4]) // "Holden"
 */
 
 const nameList = ["John", "Michael", "Jerry", "Alex", "Holden"];
+
+for (let i = 0; i < nameList.length; i++) {
+  console.log(nameList[i]);
+}
