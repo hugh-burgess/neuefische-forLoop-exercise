@@ -18,3 +18,11 @@ Hint: Read about the Modulo(Remainder)-Operator here to get to know if something
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Remainder
 
 */
+
+for (let i = 0; i <= 15; i++) {
+  if (i % 2 === 0) {
+    console.log(`${i} is even`);
+  } else {
+    console.log(`${i} is odd`);
+  }
+}
