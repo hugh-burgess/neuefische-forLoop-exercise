@@ -20,3 +20,7 @@ Use everything the for loop is giving you ;-)
 */
 
 const nameList = ["John", "Michael", "Jerry", "Alex", "Holden"];
+
+for (let i = 0; i < nameList.length; i++) {
+  console.log(`Hello ${nameList[i]}, welcome to the server`);
+}
