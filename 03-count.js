@@ -18,3 +18,9 @@ Output in console:
 Remember: Use everything the for loop is giving you ;-)
 
 */
+
+let myArr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+for (let i = 0; i < myArr.length; i++) {
+  console.log(myArr[i]);
+}
