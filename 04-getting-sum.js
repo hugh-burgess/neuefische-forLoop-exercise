@@ -15,3 +15,7 @@ console output:
 
 const firstArray = [4, 6, 7];
 const secondArray = [8, 1, 9];
+
+for (let i = 0; i < 3; i++) {
+  console.log(firstArray[i] + secondArray[i]);
+}
